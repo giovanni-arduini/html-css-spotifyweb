@@ -32,6 +32,7 @@ ol {
 
 .sidebar {
   flex-shrink: none;
+  width: 230px;
 }
 
 .main-content {
@@ -52,7 +53,6 @@ ol {
 }
 
 .main.debug .sidebar {
-  min-width: 300px;
   border: 2px solid rgb(255, 94, 0);
 }
 
