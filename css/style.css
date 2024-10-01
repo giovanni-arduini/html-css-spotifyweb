@@ -21,6 +21,22 @@ ol {
 #app {
   height: 100vh;
   display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 /* DEBUG RULES */
+
+.main.debug {
+  border: 1px solid green;
+  background-color: rgb(169, 233, 169);
+}
+
+.player.debug {
+  min-height: 100px;
+  border: 1px solid rgb(248, 60, 230);
+  background-color: rgb(232, 169, 233);
+}
