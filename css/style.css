@@ -45,12 +45,32 @@ ol {
 .player {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
+}
+
+/* .player > * {
+  text-align: center;
+} */
+
+.player .track-control {
+  width: 40%;
 }
 
 /* RESPONSIVENESS */
 
-/* Mobile */
+/* Tablet 878 */
+
+/* Tablet 639 */
+
+@media (max-width: 552px) {
+  /* .player .track-info,
+  .player .output-controls  */
+  .player > * {
+    flex-shrink: 2;
+  }
+}
+
+/* Mobile 552*/
 @media (max-width: 552px) {
   .sidebar {
     width: 50px;
@@ -78,10 +98,7 @@ ol {
 }
 
 .player.debug > * {
-  min-width: 100px;
+  /* min-width: 100px; */
   background-color: purple;
-}
-
-.player .track-control {
-  min-width: 300px;
+  padding: 0 30px;
 }
