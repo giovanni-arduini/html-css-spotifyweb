@@ -39,6 +39,14 @@ ol {
   flex-grow: 1;
 }
 
+/* RESPONSIVENESS */
+
+@media (max-width: 552px) {
+  .sidebar {
+    width: 50px;
+  }
+}
+
 /* DEBUG RULES */
 
 .main.debug {
