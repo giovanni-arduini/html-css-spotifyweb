@@ -1,5 +1,14 @@
 /* RESET RULES */
 
+:root {
+  --brand-color: #adff2f;
+  --black: #000000;
+  --dark-grey: #282828;
+  --deep-blue: #141922;
+  --white: #ffffff;
+  --sidebar-width: 230px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -31,13 +40,13 @@ ol {
 }
 
 .sidebar {
-  flex-shrink: none;
-  width: 230px;
+  flex-shrink: 0;
+  width: var(--sidebar-width);
 }
 
 .main-content {
   flex-grow: 1;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 /* PLAYER */
@@ -94,7 +103,7 @@ ol {
 /* Mobile 552*/
 @media (max-width: 552px) {
   .sidebar {
-    width: 50px;
+    --sidebar-width: 50px;
   }
 }
 
