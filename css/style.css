@@ -127,6 +127,20 @@ ol {
   margin-top: auto;
 }
 
+.user-cta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #717171;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.user-cta i {
+  color: white;
+  font-weight: normal;
+}
+
 /* MAIN CONTENT */
 
 .main-content {
