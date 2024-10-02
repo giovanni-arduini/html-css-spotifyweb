@@ -9,6 +9,10 @@
   --sidebar-width: 230px;
 }
 
+html {
+  font-family: "Montserrat";
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -66,6 +70,7 @@ ol {
 .side-menu .menu-item {
   display: flex;
   align-items: center;
+  margin-bottom: 12px;
 }
 
 .menu-item .menu-icon {
@@ -75,6 +80,8 @@ ol {
 
 .menu-item .item-tag {
   margin-left: 9px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 /* MAIN CONTENT */
