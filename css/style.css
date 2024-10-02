@@ -40,6 +40,8 @@ ol {
   background-color: var(--deep-blue);
 }
 
+/* SIDEBAR */
+
 .sidebar {
   flex-shrink: 0;
   width: var(--sidebar-width);
@@ -49,6 +51,13 @@ ol {
   padding: 20px;
   color: white;
 }
+
+.sidebar .side-logo {
+  width: 132px;
+  margin-bottom: 24px;
+}
+
+/* MAIN CONTENT */
 
 .main-content {
   flex-grow: 1;
