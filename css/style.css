@@ -133,12 +133,38 @@ ol {
   gap: 10px;
   color: #717171;
   font-weight: bold;
+  font-size: 12px;
   margin-bottom: 12px;
 }
 
 .user-cta i {
   color: white;
   font-weight: normal;
+}
+
+.grey-line {
+  height: 1px;
+  width: 190px;
+  background-color: #717171;
+  margin-bottom: 14px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-icon img {
+  background-color: #a3a3a3;
+  height: 25px;
+  aspect-ratio: 1/1;
+  border-radius: 999px;
+  display: block;
+}
+
+.user-name {
+  font-size: 14px;
 }
 
 /* MAIN CONTENT */
