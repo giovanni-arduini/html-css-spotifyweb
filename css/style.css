@@ -37,11 +37,13 @@ ol {
 .main {
   display: flex;
   flex-grow: 1;
+  background-color: var(--deep-blue);
 }
 
 .sidebar {
   flex-shrink: 0;
   width: var(--sidebar-width);
+  background-color: var(--black);
 }
 
 .main-content {
@@ -55,6 +57,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--dark-grey);
 }
 
 /* .player > * {
