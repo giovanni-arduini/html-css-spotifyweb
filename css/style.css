@@ -248,12 +248,13 @@ ol {
   background-color: transparent;
 }
 
-.player-btn .icon {
-  font-size: 24px;
+.player-btn .i {
+  font-size: 1rem;
 }
 
 .player-buttons .player-btn.play {
-  font-size: 36px;
+  text-align: center;
+  /* font-size: 36px; */
 }
 
 .track-control .track-bar {
@@ -265,7 +266,7 @@ ol {
 
 .slider {
   height: 4px;
-  width: 100px;
+  width: 50%;
   flex-grow: 1;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -273,6 +274,7 @@ ol {
 .output-controls {
   display: flex;
   align-items: center;
+
   gap: 20px;
   padding: 0 10px;
 }
@@ -290,8 +292,6 @@ ol {
 /* Tablet 639 */
 
 @media (max-width: 639px) {
-  /* .player .track-info,
-  .player .output-controls  */
   .player > * {
     flex-shrink: 1;
   }
@@ -313,7 +313,7 @@ ol {
     display: none;
   }
 
-  .side-logo .sm {
+  .sidebar .side-logo .sm {
     display: block;
   }
 
@@ -325,7 +325,12 @@ ol {
     display: none;
   }
 
-  .side-user:not(.user-cta .cta-icon):not(.user-info .user-icon) {
+  .side-user .user-cta {
+    justify-content: center;
+  }
+  .side-user .user-name,
+  .side-user .grey-line,
+  .side-user .user-cta span {
     display: none;
   }
 }
