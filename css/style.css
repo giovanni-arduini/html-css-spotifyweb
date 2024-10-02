@@ -58,6 +58,8 @@ ol {
   justify-content: space-between;
   align-items: center;
   background-color: var(--dark-grey);
+  padding: 10px;
+  color: white;
 }
 
 /* .player > * {
@@ -65,7 +67,7 @@ ol {
 } */
 
 .player .track-control {
-  width: 40%;
+  width: 45%;
 }
 
 .player .track-control {
@@ -80,13 +82,32 @@ ol {
   gap: 10px;
 }
 
+.player-buttons .player-btn {
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.player-btn .icon {
+  font-size: 24px;
+}
+
 .player-buttons .player-btn.play {
-  margin: 0 5px;
+  font-size: 36px;
 }
 
 .track-control .track-bar {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.slider {
+  height: 4px;
+  width: 100px;
+  flex-grow: 1;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* RESPONSIVENESS */

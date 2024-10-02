@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Web</title>
+    <script
+      src="https://kit.fontawesome.com/7de208d098.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="">
@@ -16,16 +20,26 @@
         <div class="track-info">CIAO!</div>
         <div class="track-control">
           <div class="player-buttons">
-            <button class="player-btn"></button>
-            <button class="player-btn"></button>
-            <button class="player-btn play"></button>
-            <button class="player-btn"></button>
-            <button class="player-btn"></button>
+            <button class="player-btn">
+              <i class="fa-solid fa-shuffle icon"></i>
+            </button>
+            <button class="player-btn">
+              <i class="fa-solid fa-backward-step icon"></i>
+            </button>
+            <button class="player-btn play">
+              <i class="fa-regular fa-circle-play"></i>
+            </button>
+            <button class="player-btn">
+              <i class="fa-solid fa-forward-step icon"></i>
+            </button>
+            <button class="player-btn">
+              <i class="fa-solid fa-arrow-rotate-right icon"></i>
+            </button>
           </div>
           <div class="track-bar">
-            <span id="current-time" class="time">sec</span>
-            <div class="bar">bar</div>
-            <span id="duration" class="time">sec</span>
+            <span id="current-time" class="time">0.23</span>
+            <div class="slider"></div>
+            <span id="total-time" class="time">4:56</span>
           </div>
         </div>
         <div class="output-controls">CIAO!</div>
