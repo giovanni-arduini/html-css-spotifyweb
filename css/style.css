@@ -57,6 +57,26 @@ ol {
   margin-bottom: 24px;
 }
 
+.sidebar .side-menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.side-menu .menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item .menu-icon {
+  height: 22px;
+  aspect-ratio: 1/1;
+}
+
+.menu-item .item-tag {
+  margin-left: 9px;
+}
+
 /* MAIN CONTENT */
 
 .main-content {
