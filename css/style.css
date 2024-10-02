@@ -56,9 +56,15 @@ ol {
   color: white;
 }
 
-.sidebar .side-logo {
+.sidebar .side-logo .bg {
   width: 132px;
   margin-bottom: 24px;
+}
+
+.sidebar .side-logo .sm {
+  height: 28px;
+  margin-bottom: 24px;
+  display: none;
 }
 
 .sidebar .side-menu {
@@ -286,6 +292,28 @@ ol {
 @media (max-width: 552px) {
   .sidebar {
     --sidebar-width: 50px;
+    padding: 20px 10px;
+    align-items: center;
+  }
+
+  .side-logo .bg {
+    display: none;
+  }
+
+  .side-logo .sm {
+    display: block;
+  }
+
+  .sidebar .item-tag {
+    display: none;
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  .side-user:not(.user-cta .cta-icon):not(.user-info .user-icon) {
+    display: none;
   }
 }
 
