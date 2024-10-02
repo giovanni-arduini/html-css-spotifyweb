@@ -84,11 +84,47 @@ ol {
   font-weight: bold;
 }
 
+.playlist {
+  color: #717171;
+  font-weight: bold;
+}
+
 .playlist .playlist-title {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 15px;
+  color: white;
+}
+
+.playlist .new-playlist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.new-playlist .create-playlist-btn {
+  background-color: #a3a3a3;
+  border: none;
+  width: 37px;
+  aspect-ratio: 1/1;
+}
+
+.new-playlist .create-playlist-btn i {
+  font-size: 18px;
+}
+
+.new-playlist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  font-size: 12px;
+}
+
+.side-user {
+  margin-top: auto;
 }
 
 /* MAIN CONTENT */
