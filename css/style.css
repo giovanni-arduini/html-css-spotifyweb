@@ -217,6 +217,15 @@ ol {
   object-position: center;
 }
 
+.track-info .icons {
+  display: flex;
+  gap: 3px;
+}
+
+.track-info .icons > * {
+  margin: 2px;
+}
+
 .player .track-control {
   width: 45%;
 }
@@ -280,11 +289,15 @@ ol {
 
 /* Tablet 639 */
 
-@media (max-width: 552px) {
+@media (max-width: 639px) {
   /* .player .track-info,
   .player .output-controls  */
   .player > * {
-    flex-shrink: 2;
+    flex-shrink: 1;
+  }
+  .track-info .icons {
+    flex-direction: column;
+    gap: 3px;
   }
 }
 
