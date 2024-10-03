@@ -487,6 +487,7 @@ ol {
   height: 4px;
   width: 50%;
   flex-grow: 1;
+  margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
