@@ -41,7 +41,7 @@ ol {
 .row {
   display: flex;
   /* Soluzioni migliori al gap? */
-  gap: 24px;
+  padding: 0 8px;
   width: 100%;
 }
 
@@ -292,30 +292,33 @@ ol {
 /* CONTENT CATEGORIES */
 
 .content-categories > * {
-  padding: 20px;
   margin-bottom: 22px;
 }
 
 .category-title {
   margin-bottom: 35px;
   font-size: 24px;
+  padding: 0 20px;
 }
 
 .custom .category-title,
 .popular .category-title {
   margin-bottom: 5px;
+  padding: 0 20px;
 }
 
 .category-subtitle {
   color: #717171;
   font-size: 12px;
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 12px;
 }
 
 .card .card-img {
@@ -455,6 +458,15 @@ ol {
 /* RESPONSIVENESS */
 
 /* Tablet 878 */
+
+@media (max-width: 878px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .card.col-2 {
+    width: 25%;
+  }
+}
 
 /* Tablet 639 */
 
