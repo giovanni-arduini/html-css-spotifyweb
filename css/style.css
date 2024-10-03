@@ -80,9 +80,31 @@ ol {
   margin-bottom: 12px;
 }
 
+.menu-item {
+  position: relative;
+}
+
+.menu-item a {
+  display: flex;
+  align-items: center;
+  padding-left: var(--sidebar-space-x);
+}
+
 .menu-item .menu-icon {
   height: 22px;
   aspect-ratio: 1/1;
+}
+
+.menu-item.active::before,
+.menu-item:hover::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  height: 100%;
+  width: 4px;
+  top: 0;
+  left: 0;
+  background-color: var(--brand-color);
 }
 
 .menu-item .item-tag {
