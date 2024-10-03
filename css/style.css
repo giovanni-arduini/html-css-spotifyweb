@@ -217,6 +217,8 @@ ol {
   font-size: 14px;
 }
 
+/* Sidebar Hover */
+
 .playlist .new-playlist:hover,
 .new-playlist-items li:hover,
 .side-menu .menu-item:hover,
@@ -224,6 +226,7 @@ ol {
 .user-info:hover {
   color: white;
 }
+
 /* MAIN CONTENT */
 
 .main-content {
@@ -286,8 +289,7 @@ ol {
   position: relative;
 }
 
-.content-link.active::after,
-.content-link:hover::after {
+.content-link.active::after {
   position: absolute;
   content: " ";
   display: block;
@@ -298,6 +300,10 @@ ol {
   transform: translateX(-50%);
 
   background-color: var(--brand-color);
+}
+
+.content-link:hover {
+  color: white;
 }
 
 /* CONTENT CATEGORIES */
