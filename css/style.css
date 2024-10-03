@@ -291,23 +291,34 @@ ol {
 
 /* CONTENT CATEGORIES */
 
-.recents {
+.content-categories > * {
   padding: 20px;
   margin-bottom: 22px;
 }
 
-.recents .recent-title {
+.category-title {
   margin-bottom: 35px;
   font-size: 24px;
 }
 
-.recent-card {
+.custom .category-title,
+.popular .category-title {
+  margin-bottom: 5px;
+}
+
+.category-subtitle {
+  color: #717171;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.recent-card .card-img {
+.card .card-img {
   width: 100%;
   margin-bottom: 23px;
 }
