@@ -209,6 +209,11 @@ ol {
   flex-grow: 1;
 }
 
+.track-name,
+.artist-name {
+  font-size: 0.8rem;
+}
+
 .track-info .image img {
   display: block;
   width: 100%;
@@ -274,7 +279,7 @@ ol {
 .output-controls {
   display: flex;
   align-items: center;
-
+  justify-content: center;
   gap: 20px;
   padding: 0 10px;
 }
@@ -283,6 +288,10 @@ ol {
   color: white;
   border: none;
   background-color: transparent;
+}
+
+.slider.volume {
+  width: 100px;
 }
 
 /* RESPONSIVENESS */

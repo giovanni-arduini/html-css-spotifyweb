@@ -25,7 +25,11 @@
             ><img class="bg" src="./img/logo.svg" alt="" />
             <img class="sm" src="./img/logo-small.svg" alt=""
           /></a>
-          <div class="side-menu">
+
+          <!-- cambiare padding generale e targettare 
+          singoli elementi. La nav non ne avrà! -->
+
+          <nav class="side-menu">
             <a class="menu-item" href="#">
               <img class="menu-icon" src="./img/home.svg" alt="" />
               <span class="item-tag">Home</span></a
@@ -40,7 +44,8 @@
               <img class="menu-icon" src="./img/libreria.svg" alt="" />
               <span class="item-tag">La tua libreria</span></a
             >
-          </div>
+          </nav>
+
           <div class="playlist">
             <h3 class="playlist-title">Playlist</h3>
             <div class="new-playlist">
@@ -49,6 +54,7 @@
               </button>
               <span>Crea Playlist</span>
             </div>
+
             <ul class="new-playlist-items">
               <li>Nuova Playlist</li>
               <li>Nuova Playlist</li>
@@ -83,8 +89,8 @@
             <img src="./img/sinister.jpeg" alt="" />
           </figure>
           <div class="track-details">
-            <h3>Sinister</h3>
-            <h4>Brano Nome</h4>
+            <h3 class="artist-name">Sinister</h3>
+            <h4 class="track-name">Brano Nome</h4>
           </div>
           <div class="icons">
             <i class="fa-regular fa-heart"></i>
@@ -126,7 +132,7 @@
           <button class="control-btn">
             <i class="fa-solid fa-volume-high icon"></i>
           </button>
-          <div class="slider"></div>
+          <div class="slider volume"></div>
         </div>
       </aside>
     </div>
