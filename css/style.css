@@ -447,6 +447,7 @@ ol {
 .player .track-control {
   display: flex;
   flex-direction: column;
+  margin: 0 10px;
 }
 
 .track-control .player-buttons {
@@ -570,6 +571,10 @@ ol {
   .side-user .grey-line,
   .side-user .user-cta span {
     display: none;
+  }
+
+  .output-controls {
+    gap: 10px;
   }
 
   .menu-item.active::before,
