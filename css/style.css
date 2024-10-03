@@ -67,7 +67,7 @@ ol {
   background-color: var(--black);
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #717171;
 }
 
 .sidebar .side-logo .bg {
@@ -154,6 +154,7 @@ ol {
   border: none;
   width: 37px;
   aspect-ratio: 1/1;
+  cursor: pointer;
 }
 
 .new-playlist .create-playlist-btn i {
@@ -216,16 +217,27 @@ ol {
   font-size: 14px;
 }
 
+.playlist .new-playlist:hover,
+.new-playlist-items li:hover,
+.side-menu .menu-item:hover,
+.user-cta:hover,
+.user-info:hover {
+  color: white;
+}
 /* MAIN CONTENT */
 
 .main-content {
   flex-grow: 1;
   color: #ffffff;
   position: relative;
+  height: 100%;
+  padding-top: 90px;
 }
 
 .main-content .upgrade {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 90px;
   background-color: #080b12;
@@ -246,8 +258,6 @@ ol {
 .content {
   overflow: auto;
   height: 100%;
-  position: relative;
-  top: 90px;
 }
 /* 
 .main-content .content {
