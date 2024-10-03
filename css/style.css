@@ -302,6 +302,12 @@ ol {
   background-color: var(--brand-color);
 }
 
+/* Content Hover */
+
+.upgrade-btn:hover {
+  transform: scale(105%);
+}
+
 .content-link:hover {
   color: white;
 }
