@@ -263,7 +263,7 @@ ol {
   display: block;
   height: 2px;
   width: 30px;
-  top: 13;
+  top: 120%;
   left: 50%;
   transform: translateX(-50%);
 
