@@ -55,6 +55,7 @@ ol {
   display: flex;
   flex-grow: 1;
   background-color: var(--deep-blue);
+  overflow: hidden;
 }
 
 /* SIDEBAR */
@@ -241,12 +242,18 @@ ol {
   font-size: 9px;
 }
 
-.main-content .content {
-  /* height: 100%; */
+.content {
+  overflow: auto;
+  height: 100%;
   position: relative;
   top: 90px;
-  overflow: auto;
 }
+/* 
+.main-content .content {
+  
+  position: relative;
+  top: 90px;
+} */
 
 .content .content-menu {
   text-align: center;
@@ -286,6 +293,7 @@ ol {
 
 .recents {
   padding: 20px;
+  margin-bottom: 22px;
 }
 
 .recents .recent-title {
