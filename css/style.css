@@ -237,15 +237,37 @@ ol {
 }
 
 .content .content-menu {
+  text-align: center;
+  color: #717171;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 9px;
+}
+
+.content-menu ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 23px;
   gap: 25px;
-  color: #717171;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 9px;
+}
+
+.content-item {
+  position: relative;
+}
+
+.content-link.active::after,
+.content-link:hover::after {
+  position: absolute;
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 30px;
+  top: 13;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: var(--brand-color);
 }
 
 /* PLAYER */
