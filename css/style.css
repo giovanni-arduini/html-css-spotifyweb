@@ -453,22 +453,26 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .player-buttons .player-btn {
   color: white;
   border: none;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.player-btn .i {
-  font-size: 1rem;
+.player-btn i {
+  font-size: 1.5rem;
 }
 
-.player-buttons .player-btn.play {
+.player-buttons .player-btn.play i {
   text-align: center;
-  /* font-size: 36px; */
+  font-size: 2rem;
 }
 
 .track-control .track-bar {
