@@ -43,6 +43,7 @@ ol {
   /* Soluzioni migliori al gap? */
   padding: 0 8px;
   width: 100%;
+  row-gap: 20px;
 }
 
 .col-2 {
@@ -478,6 +479,9 @@ ol {
     flex-direction: column;
     gap: 3px;
   }
+  .card.col-2 {
+    width: 50%;
+  }
 }
 
 /* Mobile 552*/
@@ -496,6 +500,10 @@ ol {
     display: block;
   }
 
+  .menu-item a {
+    padding: 0;
+  }
+
   .sidebar .item-tag {
     display: none;
   }
@@ -510,6 +518,11 @@ ol {
   .side-user .user-name,
   .side-user .grey-line,
   .side-user .user-cta span {
+    display: none;
+  }
+
+  .menu-item.active::before,
+  .menu-item:hover::before {
     display: none;
   }
 }
